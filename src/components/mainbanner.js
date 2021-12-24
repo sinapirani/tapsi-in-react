@@ -1,4 +1,5 @@
 import {ReactComponent as DownLogo} from '../pics/down.svg';
+import phone from '../pics/phone.webp';
 
 
 export default function MainBanner(){
@@ -34,7 +35,7 @@ export default function MainBanner(){
                 </div>
             </div>
             <div className="bannersection2">
-                
+                <img src={phone} alt="" />
             </div>
         </div>
 

@@ -3,7 +3,6 @@ body{
   padding: 0;
   min-height: 100vh;
   min-width: 100vw;
-  background-color: antiquewhite;
   font-family: shabnam;
 }
 li:hover{
@@ -47,9 +46,10 @@ li:hover{
 }
 #itemTapsi{
   background-color: #FF5722;
-  padding: 10px 30px;
+  padding: 11px 25px;
   border-radius: 8px;
   color: white;
+  font-weight: 400;
 }
 
 
@@ -97,7 +97,10 @@ banner 1
   align-items: center;
 }
 .signupSection{
-  width: 75%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
   color: white;
   display: flex;
   justify-content: center;
@@ -164,4 +167,15 @@ banner2
 
 */
 
-
+.bannersection2{
+  position: relative;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+.bannersection2 img{
+  top: 18%;
+  position: absolute;
+  width: 420px;
+  height: 643px;
+}
