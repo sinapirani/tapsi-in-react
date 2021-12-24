@@ -1,10 +1,15 @@
 
 import './App.css';
 import Header from './components/header.js';
+import MainBanner from './components/mainbanner';
 
 function App() {
   return (
-    <Header/>
+    <div className="container">
+      <Header/>
+      <MainBanner/>
+    </div>
+
   )
 }
 
